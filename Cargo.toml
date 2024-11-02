@@ -1,0 +1,18 @@
+[package]
+name = "sockets-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio =             {version = "1.41.0", features = ["full"]}
+futures =           {version = "0.3.31", features = ["default"]}
+serde =             {version = "1.0.214", features = ["derive"]}
+serde_json =        {version = "1.0.132",features = ["default"]}
+tokio-tungstenite = {version = "0.24.0", features = ["default"]}
+jsonwebtoken =      {version = "9.3.0", features = ["default"]}
+tungstenite =       {version = "0.24.0", features = ["default"]}
+hyper =             {version = "1.5.0", features = ["full"]}
+hyper-tungstenite = {version = "0.15.0"}
+hyper-util =        {version = "0.1.10", features = ["full"] }
+http-body-util =    {version = "0.1.2"}
+url =               {version = "2.5.2", features = ["default"]}
